@@ -1,0 +1,21 @@
+body{
+
+    font-family: 'Open Sans';
+}
+.logo-set{
+    width: 50px;
+    height:50px;
+}
+
+.hero-image {
+    background-image: url("../images/banner.jpg");
+    background-color: #cccccc;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .top-div{
+      margin: 120px;
+  }
