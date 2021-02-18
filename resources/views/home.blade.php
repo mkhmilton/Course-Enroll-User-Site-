@@ -7,8 +7,8 @@
      <div class="row d-flex justify-content-center ">
      
          <div class="col-md-4 top-div text-center">
-            <h1 class="text-white">Software Engineer</h1>
-            <h2  class="text-white">Mobile & Web</h2>
+            <h1 class="text-white">"Learn Development With Milton"</h1>
+            <h3  class="text-white">[Full-Stack Web Development]</h3>
             <a href="{{url('login')}}" class="btn btn-primary btn-lg " role="button" aria-disabled="true">Login</a>
             
          </div>
@@ -22,14 +22,14 @@
 
 
   <div class="container text-center mt-5">
-      <h2>My Services</h2><br>
+      <h2>My Courses</h2><br>
      <div class="row">
 
      <div class="col-md-4 p-1">
                <div class="card" style="width:100%;">
                    <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                       <h5 class="card-title">Service Name</h5>
+                       <h5 class="card-title">HTML</h5>
                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         
                     </div>
@@ -39,7 +39,7 @@
                <div class="card" style="width:100%;">
                    <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                       <h5 class="card-title">Service Name</h5>
+                       <h5 class="card-title">CSS</h5>
                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         
                     </div>
@@ -49,12 +49,44 @@
                <div class="card" style="width:100%;">
                    <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                       <h5 class="card-title">Service Name</h5>
+                       <h5 class="card-title">JavaScript</h5>
                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         
                     </div>
                 </div>
             </div>
+            <div class="col-md-4 p-1">
+               <div class="card" style="width:100%;">
+                   <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Bootstrap</h5>
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-1">
+               <div class="card" style="width:100%;">
+                   <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">PHP</h5>
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-1">
+               <div class="card" style="width:100%;">
+                   <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Laravel</h5>
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            
+         
      </div>
   </div>
 

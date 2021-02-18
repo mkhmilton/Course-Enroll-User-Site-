@@ -14,13 +14,17 @@ class SiteController extends Controller
     {
         return view('about');
     }
-    function showService()
+    function showCourse()
     {
-        return view('service');
+        return view('course');
     }
     function showPortfolio()
     {
         return view('portfolio');
+    }
+    function showClass()
+    {
+        return view('democlass');
     }
     
     

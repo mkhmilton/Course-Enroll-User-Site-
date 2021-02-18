@@ -13,9 +13,10 @@ use App\Http\Controllers\UserAuthController;
 
     Route::get('/', [SiteController::class,'showHome']);
     Route::get('/about',[SiteController::class,'showAbout']);
-    Route::get('/service',[SiteController::class,'showService']);
+    Route::get('/course',[SiteController::class,'showCourse']);
     Route::get('/portfolio', [SiteController::class,'showPortfolio']);
     Route::get('/reset', [SiteController::class,'resetPassword']);
+    Route::get('/democlass', [SiteController::class,'showClass']);
     Route::get('/classroom', [SiteController::class,'classroom'])->middleware('isLogged');
     Route::get('/logout', [UserAuthController::class,'Logout']);
     Route::get('status/{id}', [UserAuthController::class,'status'])->name('status');

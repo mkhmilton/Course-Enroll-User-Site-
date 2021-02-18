@@ -11,9 +11,7 @@
           <a class="nav-link active" aria-current="page" href="{{url('profile') }}">Home</a>
         </li>
         
-        <li class="nav-item">
-          <a class="nav-link" href="{{url('profile') }}">Services</a>
-        </li>
+        
         <li class="nav-item">
           <a class="nav-link" href="{{url('/userprofile') }}">Profile</a>
         </li>

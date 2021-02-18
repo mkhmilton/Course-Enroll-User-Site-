@@ -1,5 +1,5 @@
 @extends('layout.app')
-@section('title','Service')
+@section('title','Courses')
 @section('content')
 
 
@@ -8,7 +8,7 @@
 
     <div class="row p-4">
         <div class="col-md-12 text-center">
-            <h4 class="text-white">MY Services</h4>
+            <h4 class="text-white">MY Courses</h4>
         </div>
     </div>
 </div>
@@ -21,7 +21,7 @@
                <div class="card" style="width:100%;">
                    <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                       <h5 class="card-title">Service Name</h5>
+                       <h5 class="card-title">HTML</h5>
                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         
                     </div>
@@ -31,7 +31,7 @@
                <div class="card" style="width:100%;">
                    <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                       <h5 class="card-title">Service Name</h5>
+                       <h5 class="card-title">CSS</h5>
                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         
                     </div>
@@ -41,7 +41,37 @@
                <div class="card" style="width:100%;">
                    <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                       <h5 class="card-title">Service Name</h5>
+                       <h5 class="card-title">JavaScript</h5>
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-1">
+               <div class="card" style="width:100%;">
+                   <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Bootstrap</h5>
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-1">
+               <div class="card" style="width:100%;">
+                   <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">PHP</h5>
+                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-1">
+               <div class="card" style="width:100%;">
+                   <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                       <h5 class="card-title">Laravel</h5>
                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         
                     </div>

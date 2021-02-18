@@ -14,7 +14,10 @@
           <a class="nav-link" href="{{url('/about') }}">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{url('/service') }}">Services</a>
+          <a class="nav-link" href="{{url('/course') }}">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{url('/democlass') }}">DemoClass</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{url('/portfolio') }}">Portfolio</a>
