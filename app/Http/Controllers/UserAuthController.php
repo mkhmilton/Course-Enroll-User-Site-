@@ -58,7 +58,7 @@ class UserAuthController extends Controller
         $user= User::where('email','=', $request->email)->first();
         if($user)
         {
-           if($user && Hash::check($request->password, $user->password) && $user->status =1)
+           if($user && Hash::check($request->password, $user->password) && $user->status == 1)
            {
                
                $request->session()->put('LoggedUser',$user->id);

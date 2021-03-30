@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+ 
 <div class="container-fluid mt-3 bg-light">
 
    <div class="row p-5">
@@ -13,21 +13,21 @@
      </div>
      <div class="col-md-3">
        <h5>My Address</h5>
-        <a><i class='fa fa-angellist'></i> 17/2B,Lotus,Sukrabad,Dhaka</a><br>
-        <a><i class='fa fa-angellist'></i> 01755456020(Help-Line)</a><br>
-        <a><i class='fa fa-google'></i> khalid35-1813@diu.edu.bd</a>
+        <a><i class='fa fa-map-marker'> </i> 17/2B,Lotus,Sukrabad,Dhaka</a><br>
+        <a><i class='fa fa-phone'> </i> 01755456020(Help-Line)</a><br>
+        <a><i class='fa fa-google'> </i> khalid35-1813@diu.edu.bd</a>
         
         
      </div>
      <div class="col-md-3">
        <h5>Information</h5>
-       <a href="about">About Me</a><br>
+       <a href="about"> <i class='fa fa-user'></i> About Me</a><br>
        
      </div>
      <div class="col-md-3">
        <h5>Legal</h5>
-       <a href="#">Refund Policy</a><br>
-       <a href="#">Terms & Condition</a><br>
+       <a href="#"> <i class='fa fa-angellist'></i> Refund Policy</a><br>
+       <a href="#"> <i class='fa fa-angellist'></i> Terms & Condition</a><br>
        
      </div>
    </div>

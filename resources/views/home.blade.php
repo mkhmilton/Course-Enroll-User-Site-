@@ -6,9 +6,9 @@
   <div class="container-fluid hero-image mb-5">
      <div class="row d-flex justify-content-center ">
      
-         <div class="col-md-4 top-div text-center">
-            <h1 class="text-white">"Learn Development With Milton"</h1>
-            <h3  class="text-white">[Full-Stack Web Development]</h3>
+         <div class="col-md-6 top-div text-center">
+            <h1 class="text-white"><marquee behavior="" direction="">Learn Development With Milton</marquee></h1>
+            <h3  class="text-white"><marquee behavior="" direction="right">[Full-Stack Web Development]</marquee></h3>
             <a href="{{url('login')}}" class="btn btn-primary btn-lg " role="button" aria-disabled="true">Login</a>
             
          </div>
@@ -170,7 +170,7 @@
                 </form>
           </div>
           <div class="col-md-6">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14538.109041557067!2d88.59315990370955!3d24.362954899933076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fbefa8f6dcfa43%3A0x38354d14038b67ae!2sShaheb%20Bazar%2C%20Rajshahi!5e0!3m2!1sen!2sbd!4v1610101621111!5m2!1sen!2sbd" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14607.154223608788!2d90.37277772936474!3d23.754918403392594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8aee415661b%3A0x2dd630b66ac26c3b!2sWest%20Rajabazar%2C%20Dhaka%201205!5e0!3m2!1sen!2sbd!4v1616854784045!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           </div>
       </div>
   </div>
