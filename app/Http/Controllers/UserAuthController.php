@@ -26,6 +26,9 @@ class UserAuthController extends Controller
             'mobile'=>'required|min:11|max:12',
             'email'=>'required|email|unique:users',
             'password'=>'required|min:6|max:24',
+            'BkashNo'=>'required|min:11|max:12',
+            'TrxId'=>'required'
+            
             
 
         ]);
@@ -34,6 +37,8 @@ class UserAuthController extends Controller
         $user->name = $request->name;
         $user->mobile = $request->mobile;
         $user->email = $request->email;
+        $user->BkashNo = $request->BkashNo;
+        $user->TrxId = $request->TrxId;
         $user->password = Hash::make($request->password);
         $user->status = false;
         $query= $user->save();

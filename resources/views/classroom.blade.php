@@ -26,36 +26,36 @@
       <th scope="row">1</th>
       <td>Getting Started</td>
       <td>HTML Part-1</td>
-      <td>https://youtu.be/sEHBSzTgZwU</td>
+      <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Getting Started</td>
       <td>HTML Part-2</td>
-      <td>https://youtu.be/sEHBSzTgZwU</td>
+      <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>Getting Started</td>
       <td>HTML Part-3</td>
-      <td>https://youtu.be/sEHBSzTgZwU</td>
+      <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
     </tr>
     <th scope="row">4</th>
     <td>Getting Started</td>
     <td>HTML Part-4</td>
-    <td>https://youtu.be/sEHBSzTgZwU</td>
+    <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
     </tr>
     <tr>
     <th scope="row">5</th>
     <td>Getting Started</td>
     <td>HTML Part-5</td>
-    <td>https://youtu.be/sEHBSzTgZwU</td>
+    <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
     </tr>
     <tr>
     <th scope="row">6</th>
     <td>Getting Started</td>
     <td>HTML Part-6</td>
-    <td>https://youtu.be/sEHBSzTgZwU</td>
+    <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
     </tr>
   </tbody>
 </table>

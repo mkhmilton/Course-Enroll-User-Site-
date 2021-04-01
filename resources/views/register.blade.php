@@ -57,13 +57,23 @@
 
                     <div class="form-group mb-3">
                       <label for="email" class="form-label">Email</label>
-                       <input type="text" class="form-control" name="email" placeholder="Enter Your Email Here">
+                       <input type="email" class="form-control" name="email" placeholder="Enter Your Email Here">
                         <span class="text-danger">@error('name') {{ $message }} @enderror</span>
                     </div>
 
                     <div class="form-group mb-3">
                       <label for="password" class="form-label">Password</label>
                        <input type="password" class="form-control" name="password" placeholder="Enter Your Password Here">
+                        <span class="text-danger">@error('name') {{ $message }} @enderror</span>
+                    </div>
+                    <div class="form-group mb-3">
+                      <label for="BkashNo" class="form-label">Bkash Number</label>
+                       <input type="number" class="form-control" name="BkashNo" placeholder="Enter Your Bkash No">
+                        <span class="text-danger">@error('name') {{ $message }} @enderror</span>
+                    </div>
+                    <div class="form-group mb-3">
+                      <label for="TrxId" class="form-label">Transaction Id</label>
+                       <input type="text" class="form-control" name="TrxId" placeholder="Enter Your Bkash TrxID">
                         <span class="text-danger">@error('name') {{ $message }} @enderror</span>
                     </div>
                     

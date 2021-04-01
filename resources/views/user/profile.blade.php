@@ -27,50 +27,50 @@
 
      <div class="col-md-4 p-1">
                <div class="card" style="width:100%;">
-                   <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
+                   <img src="{{asset('images/html.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                        <h5 class="card-title">HTML</h5>
-                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <p class="card-text">The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
                         
                     </div>
                 </div>
             </div>
             <div class="col-md-4 p-1">
                <div class="card" style="width:100%;">
-                   <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
+                   <img src="{{asset('images/css.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                        <h5 class="card-title">CSS</h5>
-                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <p class="card-text">Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
                         
                     </div>
                 </div>
             </div>
             <div class="col-md-4 p-1">
                <div class="card" style="width:100%;">
-                   <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
+                   <img src="{{asset('images/js.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                        <h5 class="card-title">JavaScript</h5>
-                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <p class="card-text">JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.</p>
                         
                     </div>
                 </div>
             </div>
             <div class="col-md-4 p-1">
                <div class="card" style="width:100%;">
-                   <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
+                   <img src="{{asset('images/bs.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                        <h5 class="card-title">Bootstrap</h5>
-                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <p class="card-text">Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development..</p>
                         
                     </div>
                 </div>
             </div>
             <div class="col-md-4 p-1">
                <div class="card" style="width:100%;">
-                   <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
+                   <img src="{{asset('images/php1.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                        <h5 class="card-title">PHP</h5>
-                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <p class="card-text">PHP is a general-purpose scripting language especially suited to web development.</p>
                         
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                    <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
                        <h5 class="card-title">Laravel</h5>
-                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                       <p class="card-text">Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the MVC pattern.</p>
                         
                     </div>
                 </div>
@@ -106,9 +106,9 @@
 
      <div class="col-md-4 p-1">
                <div class="card" style="width:100%;">
-                   <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
+                   <img src="{{asset('images/money.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                       <h5 class="card-title">Project Name</h5>
+                       <h5 class="card-title">Monthly Cost Calculation</h5>
                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                        <button class="btn btn-primary">Learn More</button>
                     </div>
@@ -116,9 +116,9 @@
             </div>
             <div class="col-md-4 p-1">
                <div class="card" style="width:100%;">
-                   <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
+                   <img src="{{asset('images/car.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                       <h5 class="card-title">Project Name</h5>
+                       <h5 class="card-title">Car Rental</h5>
                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                        <button class="btn btn-primary">Learn More</button>
                     </div>
@@ -126,9 +126,9 @@
             </div>
             <div class="col-md-4 p-1">
                <div class="card" style="width:100%;">
-                   <img src="{{asset('images/laravel.jpeg') }}" class="card-img-top" alt="...">
+                   <img src="{{asset('images/pos.jpg') }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                       <h5 class="card-title">Project Name</h5>
+                       <h5 class="card-title">Point of Sell Management</h5>
                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                        <button class="btn btn-primary">Learn More</button>
                     </div>
@@ -136,6 +136,7 @@
             </div>
      </div>
   </div>
+
 
    
    

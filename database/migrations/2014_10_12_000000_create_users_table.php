@@ -19,6 +19,8 @@ class CreateUsersTable extends Migration
             $table->string('mobile');
             $table->string('email')->unique();
             $table->string('password');
+            $table->string('BkashNo');
+            $table->string('TrxId');
             $table->boolean('status');
             $table->timestamps();
         });
