@@ -19,7 +19,7 @@
 
    <div class="row">
 
-      <div class="col-lg-6 offset-lg-3"">
+      <div class="col-md-6"">
       <form action="{{ route('create')}}" method="post">
       @csrf
 
@@ -85,6 +85,14 @@
                   <a href="login">I have already account!</a>
                  
                 </form>
+      </div>
+
+
+      <div class="col-md-6 mg-5">
+      <h2> <b><i>N.B: Send your course fee 01755456020 (Bkash Personal).
+
+       After sending fee use Bkash Trxid and sender mobile number for registration.</i></b></h2>
+      
       </div>
    </div>
 </div>

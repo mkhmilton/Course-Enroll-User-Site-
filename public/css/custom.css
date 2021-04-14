@@ -19,3 +19,8 @@ body{
   .top-div{
       margin: 120px;
   }
+
+  mark {
+    background-color: yellow;
+    color: black;
+  }
