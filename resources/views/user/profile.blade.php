@@ -7,7 +7,7 @@
      <div class="row d-flex justify-content-center ">
      
          <div class="col-md-4 top-div text-center">
-            <h1 class="text-white"><marquee behavior="" direction="">Most Welcome!</marquee></h1>
+            <h1 class="text-white"><marquee behavior="" direction="">Welcome To Classroom!</marquee></h1>
             
             
             

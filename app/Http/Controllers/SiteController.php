@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\VisitorModel;
 use App\Models\CoursesModel;
+use App\Models\DemoClassModel;
+use App\Models\ClassModel;
 
 class SiteController extends Controller
 {
@@ -17,6 +19,8 @@ class SiteController extends Controller
 
         $CourseData= json_decode(CoursesModel::all());
         return view('home',['CourseData'=>$CourseData]);
+
+       
     }
     function showAbout()
     {
@@ -33,7 +37,8 @@ class SiteController extends Controller
     }
     function showClass()
     {
-        return view('democlass');
+        $DemoClassData= json_decode(DemoClassModel::all());
+        return view('democlass',['DemoClassData'=>$DemoClassData]);
     }
     
     
@@ -45,7 +50,8 @@ class SiteController extends Controller
 
     function classroom()
     {
-        return view('classroom');
+        $ClassData= json_decode(ClassModel::all());
+        return view('classroom',['ClassData'=>$ClassData]);
     }
     function Logout()
     {

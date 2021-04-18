@@ -1,72 +1,47 @@
 @extends('layout.app')
 @section('title','DemoClass')
 @section('content')
-            <div class="container-fluid bg-dark">
 
-                <div class="row p-4">
-                    <div class="col-md-12 text-center">
-                        <h4 class="text-white">DemoClass</h4>
-                    </div>
-                </div>
-            </div>
+<div class="container-fluid bg-dark">
+
+    <div class="row p-4">
+        <div class="col-md-12 text-center">
+            <h4 class="text-white">DemoClass</h4>
+        </div>
+    </div>
+</div>
                     
-                <div class="container" >
-                            <table class="table">
-                            <thead>
-                                <tr>
-                                <th scope="col">No</th>
-                                <th scope="col">Topic</th>
-                                <th scope="col">Title</th>
-                                <th scope="col">Video</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                <th scope="row">1</th>
-                                <td>Getting Started</td>
-                                <td>HTML Part-1</td>
-                                <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
-                                </tr>
-                                <tr>
-                                <th scope="row">2</th>
-                                <td>Getting Started</td>
-                                <td>HTML Part-2</td>
-                                <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
-                                </tr>
-                                <tr>
-                                <th scope="row">3</th>
-                                <td>Getting Started</td>
-                                <td>HTML Part-3</td>
-                                <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
-                                </tr>
-                                <tr>
-                                <th scope="row">4</th>
-                                <td>Getting Started</td>
-                                <td>HTML Part-4</td>
-                                <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
-                                </tr>
-                                <tr>
-                                <th scope="row">5</th>
-                                <td>Getting Started</td>
-                                <td>HTML Part-5</td>
-                                <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
-                                </tr>
-                                <tr>
-                                <th scope="row">6</th>
-                                <td>Getting Started</td>
-                                <td>HTML Part-6</td>
-                                <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
-                                </tr>
-                            </tbody>
-                            </table>
+  
+<div class="container">
+<div class="row">
+<div class="col-md-12 p-5">
+<table id="DemoClassDt" class="table table-striped table-sm table-bordered" cellspacing="0" width="100%">
+  <thead>
+    <tr>
+      <th class="th-sm">NO</th>
+	  <th class="th-sm">Title</th>
+	  <th class="th-sm">Topic</th>
+      <th class="th-sm">Video</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach( $DemoClassData as  $DemoClassData)
+     <tr>
+      <td>{{ $DemoClassData->id}}</td>
+      <td>{{ $DemoClassData->topic}}</td>
+      <td>{{ $DemoClassData->title}}</td>
+      <td>{{ $DemoClassData->video}}</td>
+     
+     </tr>
 
 
+    @endforeach
+  </tbody>
+</table>
 
+</div>
+</div>
+</div>
 
-                </div>
-
-
-
-    
 
 @endsection

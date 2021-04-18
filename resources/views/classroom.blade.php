@@ -7,62 +7,39 @@
 
                 <div class="row p-4">
                     <div class="col-md-12 text-center">
-                        <h4 class="text-white">Tutorials</h4>
+                        <h4 class="text-white">Classroom(Paid Tutorials)</h4>
                     </div>
                 </div>
  </div>
-<div class="container-fluid">
-<table class="table">
+ <div class="container">
+<div class="row">
+<div class="col-md-12 p-5">
+<table id="ClassDt" class="table table-striped table-sm table-bordered" cellspacing="0" width="100%">
   <thead>
     <tr>
-      <th scope="col">No</th>
-      <th scope="col">Topic</th>
-      <th scope="col">Title</th>
-      <th scope="col">Video</th>
+      <th class="th-sm">NO</th>
+	  <th class="th-sm">Title</th>
+	  <th class="th-sm">Topic</th>
+      <th class="th-sm">Video</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Getting Started</td>
-      <td>HTML Part-1</td>
-      <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Getting Started</td>
-      <td>HTML Part-2</td>
-      <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Getting Started</td>
-      <td>HTML Part-3</td>
-      <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
-    </tr>
-    <th scope="row">4</th>
-    <td>Getting Started</td>
-    <td>HTML Part-4</td>
-    <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
-    </tr>
-    <tr>
-    <th scope="row">5</th>
-    <td>Getting Started</td>
-    <td>HTML Part-5</td>
-    <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
-    </tr>
-    <tr>
-    <th scope="row">6</th>
-    <td>Getting Started</td>
-    <td>HTML Part-6</td>
-    <td><a class="btn btn-info" href="https://youtu.be/sEHBSzTgZwU" role="button">Start</a></td>
-    </tr>
+    @foreach( $ClassData as  $ClassData)
+     <tr>
+      <td>{{ $ClassData->id}}</td>
+      <td>{{ $ClassData->classtopic}}</td>
+      <td>{{ $ClassData->classtitle}}</td>
+      <td>{{ $ClassData->classvideo}}</td>
+     
+     </tr>
+
+
+    @endforeach
   </tbody>
 </table>
 
-
-
-
+</div>
+</div>
 </div>
 
 

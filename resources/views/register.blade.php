@@ -68,7 +68,7 @@
                     </div>
                     <div class="form-group mb-3">
                       <label for="BkashNo" class="form-label">Bkash Number</label>
-                       <input type="number" class="form-control" name="BkashNo" placeholder="Enter Your Bkash No">
+                       <input type="text" class="form-control" name="BkashNo" placeholder="Enter Your Bkash No">
                         <span class="text-danger">@error('name') {{ $message }} @enderror</span>
                     </div>
                     <div class="form-group mb-3">
@@ -89,7 +89,7 @@
 
 
       <div class="col-md-6 mg-5">
-      <h2> <b><i>N.B: Send your course fee 01755456020 (Bkash Personal).
+      <h2> <b><i>N.B:Course Fee(5000 Taka Only),Please Send your course fee 01755456020 (Bkash Personal).
 
        After sending fee use Bkash Trxid and sender mobile number for registration.</i></b></h2>
       
